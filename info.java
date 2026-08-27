@@ -21,6 +21,7 @@ public class info {
 		System.out.println("Enter your mark 5:");
 		int m5=sc.nextInt();
 		double avg=(m1+m2+m3+m4+m5)/5;
+		System.out.println("AVERAGE:"+avg);
 		if(m1>=50&&m2>=50&&m3>=50&&m4>=50&&m5>=50) {
 			if(avg>=90&&avg<=100) {
 				System.out.println("GRADE A");
